@@ -96,20 +96,36 @@ Key Finding: SaulLM + all-MiniLM achieved the highest precision on complex legal
 - 📁[Code](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Code) – Implementation
     - 📁[Baseline_notebooks](https://github.com/ohadbitton1/RegulAItion/tree/main/Code/Baseline_notebooks) – Notebooks for initial model experiments
     - 📁[data_generation_&_validation](https://github.com/ohadbitton1/RegulAItion/tree/main/Code/data_generation_%26_validation) - Scripts for generating and validating datasets
+    - 📁[FineTuning](https://github.com/ohadbitton1/RegulAItion/tree/main/Code/FineTuning) - Scripts for Fine-Tuning and inference
+        - 📄[inference.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/FineTuning/inference.py) - Executes model predictions on input data
+        - 📄[report_from_inference.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/FineTuning/report_from_inference.py) - Analyzes and summerizes inference results
+        - 📄[train.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/FineTuning/train.py) - Manages the model training process
+    - 📁[RAG](https://github.com/ohadbitton1/RegulAItion/tree/main/Code/RAG) - Implement RAG pipeline scripts
+        - 📁[interactive_scripts](https://github.com/ohadbitton1/RegulAItion/tree/main/Code/RAG/interactive_scripts) - Scripts for real-time model interaction
+            - 📄[interactive_QA.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/RAG/interactive_scripts/interactive_QA.py) - Main interactive script
+        - 📄[run_hybrid_eval.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/RAG/run_hybrid_eval.py) - Executes full RAG pipeline evaluation
+        - 📄[build_all_db.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/RAG/build_all_db.py) - Builds the specialized allMiniLM-L6-v2 vector DB
+        - 📄[build_legal_db.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/RAG/build_legal_db.py) - Builds the specialized LegalBERT vector DB
+        - 📄[test_HitRate@K.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/RAG/test_HitRate@K.py) - Calculates the retreival accuracy
     - 📄[EDA.py](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Code/EDA.py) – Exploratory data analysis script
-    - 📄[prepare_for_colab.py](https://github.com/ohadbitton1/RegulAItion/blob/main/Code/prepare_for_colab.py) – Converts the raw dataset into Train/Test JSON files for LLM fine-tuning.
-    - 📄[create_inference_report.py](https://github.com/ohadbitton1/RegulAItion/blob/main/Code/create_inference_report.py) – Generates a CSV report comparing model predictions with ground-truth answers.
+    - 📄[alpaca_format_and_splitting.py](https://github.com/ohadbitton1/RegulAItion/blob/main/Code/alpaca_format_and_splitting.py) – Converts the raw dataset into alpaca format and splits into Train/Test JSON files for LLM fine-tuning.
+
 
 - 📁[Data](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data) – Datasets
     - 📁[Regulatory_Rules](https://github.com/ohadbitton1/RegulAItion/tree/main/Data/Regulatory_Rules) – Official regulatory documents
     - 📁[FT_datasets](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/FT_datasets) – Train and Test data sets for Fine Tuning
-    - 📄[RegulAItion_dataset.json](https://github.com/ohadbitton1/Banking-Regulation-QA/blob/main/Data/RegulAItion_dataset.json) – Dataset containing questions, classifications, relevant document chunk & sections, and example answers
+    - 📁[Chunks](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/Chunks) – Contains chunks of regulation rules in json format
+    - 📁[RAG_db_MiniLM](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/RAG_db_MiniLM) – MiniLM vector DB storage
+    - 📁[RAG_db_legal](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/RAG_db_legal) – LegalBERT vector DB storage
+    - 📁[final_eval_questions](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/final_eval_questions) – Evaluation datasets for RAG testing
+    - 📁[raw_datasets](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Data/raw_datasets) – Merge an unformatted source datasets
 
 - 📁[Models](https://github.com/ohadbitton1/RegulAItion/tree/main/Models) - Saved model weights and configurations
     - 📁[Baseline_LoRA](https://github.com/ohadbitton1/RegulAItion/tree/main/Models/baseline_LoRA) - Pretrained LoRA model checkpoints
+    - 📁[saul_adapter](https://github.com/ohadbitton1/RegulAItion/tree/main/Models/saul_adapter) - Fine-Tuned weights for SaulLM model
+    - 📁[Llama3.1_adapter](https://github.com/ohadbitton1/RegulAItion/tree/main/Models/Llama3.1_adapter) - Fine-Tuned weights for Llama3.1 model
 
 -  📁[Results](https://github.com/ohadbitton1/RegulAItion/tree/main/Results) – Model evaluation metrics and outputs
-    - 📁[Inference_report](https://github.com/ohadbitton1/RegulAItion/tree/main/Results/Inference_report) - baseline model predictions compared to ground-truth answers
 
 - 📁[Visuals](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Visuals) – Diagrams, visual abstracts, and illustrations
     - 📁[EDA](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Visuals/EDA) – Exploratory data analysis visualizations
