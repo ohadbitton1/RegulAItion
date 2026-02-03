@@ -9,7 +9,7 @@ from google.colab import drive
 
 # ================= CONFIGURATION =================
 PROJECT_ROOT = "/content/drive/MyDrive/Colab_Work/Regulation"
-DB_PATH = os.path.join(PROJECT_ROOT, "Data", "RAG_db_all")
+DB_PATH = os.path.join(PROJECT_ROOT, "Data", "RAG_db_MiniLM")
 ADAPTER_PATH = os.path.join(PROJECT_ROOT, "Models", "saul_adapter") 
 
 # ================= SETUP =================

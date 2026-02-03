@@ -13,7 +13,7 @@ def parse_args():
     parser.add_argument("--output_file", type=str, required=True, help="Output filename (e.g., results.json)")
     
     # Optional: Test file path (defaults to standard location)
-    default_test_path = os.path.join("..", "Data", "FT_datasets", "test_dataset.json")
+    default_test_path = os.path.join("..", "..", "Data", "FT_datasets", "test_dataset.json")
     parser.add_argument("--test_file", type=str, default=default_test_path, help="Path to test dataset")
     
     # Optional: Output directory (defaults to current folder based on user request)

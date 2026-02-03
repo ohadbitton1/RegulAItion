@@ -1,0 +1,44 @@
+[
+    {
+        "question": "What is the budget allocated for the implementation of the cyber risk management framework?",
+        "context": "29. The cyber risk management framework shall be defined and documented, including inter alia:  \n(i) Identification of the corporate governance elements for cyber risk management, including \nareas of responsibility and reporting lines. \n(ii) Detailed definition of tools and methodologies for the evaluation of risks and the manner \nin which they are implemented; \n(iii) Detailed definition  of main defense processes and measures and the manner of their  \ncontrol and assessment. \n \nCyber Defense Policy \n \n30. The banking corporation shall define a corporate-wide cyber defense policy, which shall refer \nto the entire array of controls, and the means to achieve the cyber defense objectives in \naccordance with the defined cyber defense strategy.  \nThe policy shall be reviewed annually and shall be revised as necessary.",
+        "answer": "N.A",
+        "source": "361_et.pdf, Page 12"
+    },
+    {
+        "question": "What are the specific qualifications required for the members of the credit risk management team?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [10] (11/23)  \nCredit Risk Management \nPage 311-3 \n \n \n \nshall asse ss its credit risk exposures  under adverse scenarios including stress \nscenarios. \n14. A banking corporation shall establish a system for independent, ongoing assessment \nof its credit risk  management processes and the results of such reviews should be \ncommunicated directly to the board of directors and senior management. (See also \nProper Conduct of Banking Business Directive 310.) \n15. A banking corporation shall ensure that its credit-granting business functions  are \nwell managed and that its credit exposures do not deviate from the credit policies \nset forth, including internal limits. It shall have in place internal controls and other \nmeasures to ensure that exceptions to policies, procedure s, and limits are",
+        "answer": "N.A",
+        "source": "311_et.pdf, Page 3"
+    },
+    {
+        "question": "What specific measures are in place to protect customer data from cyber threats?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business Directive (9/21) [2]  \nCyber Defense Management \nPage 361- 11 \n \n 11 \nassumption that complete ly mitigating the cyber  risk is impossible, also  taking i nto \naccount low-probability, high-impact scenarios; \n(vii) Resilience—mapping and analysis of the environment, prediction and analysis of threats, \na mission-oriented cyber defense array that enables the banking corporation to withstand \na significant (direct or indirect) operational disruption resulting from a cyber-incident, \nwhile maintaining continuous business operations and banking services delivery; \n(viii) Placing an emphasis on the protection of the privacy of the banking corporation's \ncustomers' data  and assets, while maintaining high levels of reliability, adequacy and \navailability of the services supplied by the banking corporation.",
+        "answer": "N.A",
+        "source": "361_et.pdf, Page 11"
+    },
+    {
+        "question": "What are the specific credit limits set for individual borrowers in the banking corporation?",
+        "context": "has incurred through its various activities and determine whether the corporation’s \nperformance corresponds to its established credit management strategy.  \n67. A banking corporation shall monitor actual exposures against established limits , \nincluding credit facilities. Management information system s shall warn about  \nexposures approaching limits and shall call this information, wherever it is \nsignificant, to the attention of senior management. The limit measurement systems \nshall include a ll exposures  that the banking corporation  has established. Said \nsystems shall aggregate all credit exposures to an individual borrower  and \ncounterparty and report on overruns of limits on an added-value and timely basis. \n67a. The banking corporation originating a syndication  transaction is to maintain \ncontrols to monitor performance of the pipeline against original expectations, and",
+        "answer": "N.A",
+        "source": "311_et.pdf, Page 42"
+    },
+    {
+        "question": "What specific criteria must a banking corporation use to evaluate the creditworthiness of a borrower?",
+        "context": "to assume the liability. \n27. A banking corporation needs to understand to whom it is granting credit. Therefore, \nbefore approving credit, it must become familiar with the borrower or counterparty \nand be confident that it is dealing with an individual or organization of sound repute \nand creditworthiness. In particular, strict policies must be in place to avoid \nassociation with individuals involved in fraudulent activities and other crimes. This \ncan be achieved in various ways, including asking for references, accessing credit \nregistries, and becoming familiar with individuals responsible for managing a \ncompany and checking their personal references and financial condition. However, \na banking corporation  shall not grant credit simply because the borrower or \ncounterparty is familiar to it or is perceived to be highly reputable.",
+        "answer": "N.A",
+        "source": "311_et.pdf, Page 22"
+    },
+    {
+        "question": "What specific qualifications are required for the AML/CFT Officer of the parent company?",
+        "context": "information. \n(d) The AML/CFT Officer of the parent company  shall enjoy access to r elevant \ninformation for the enforcement of group -level AML/CFT policies and \nprocedures.  \n(e) The AML/CFT Officer of the parent company shall ascertain that subsidiaries \nand branches have the tools to apply the group’s  AML/CFT policy; for this \npurpose, relevant staff members shall receive ongoing training. \n(f) The AML/CFT Officer of the parent company shall asssure the employment of \nstaff that has relevant knowledge and experience in jurisdictions where \nsubsidiaries and branches operate.",
+        "answer": "N.A",
+        "source": "411_et.pdf, Page 10"
+    },
+    {
+        "question": "What is the maximum amount of credit that can be approved by a banking corporation?",
+        "context": "Principle 6: A banking corporation shall have a clearly established process in place \nfor approving new credits as well as the amendment, renewal , and refinancing of \nexisting credits. \n40. Many individuals within a banking corporation are involved in the credit -granting \nprocess. They include personnel from the business function, the credit analysis \nfunction, and the credit granting  function. In addition, one counterparty may \napproach several different areas of the banking corporation for different forms of \ncredit. A banking corporation may choose to assign staff responsibilities for the \ncredit granting process in different ways; however, it is important that the credit",
+        "answer": "N.A",
+        "source": "311_et.pdf, Page 30"
+    }
+]

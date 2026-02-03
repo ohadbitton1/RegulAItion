@@ -8,7 +8,7 @@ from langchain_core.output_parsers import StrOutputParser
 from prepare_data import load_and_split_pdfs
 
 # 1. Paste your API key here (hidden for security)
-os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
 # 2. Set the number of chunks to sample (randomly)
 
 # ==========================================
@@ -88,11 +88,6 @@ def clean_json_string(s):
     if match: return match.group(0)
     return s
 
-def get_doc_number(filename):
-    match = re.match(r'(\d+)', filename)
-    if match: return match.group(1)
-    return filename
-
 def generate_clean():
     print("--- Loading Chunks ---")
     chunks = load_and_split_pdfs()
@@ -111,7 +106,7 @@ def generate_clean():
     # ============================================================
     
     results = []
-    output_file = "../../Data/test_rag/clean_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/clean_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -129,14 +124,13 @@ def generate_clean():
             
             # Data from Python (file name and page)
             filename = os.path.basename(chunk.metadata.get('source', 'Unknown'))
-            doc_num = get_doc_number(filename)
-            page_num = chunk.metadata.get('page_label', 0) 
+            page_num = chunk.metadata.get('page_label', 0) # page number 
 
             for item in data_list:
                 
                 # We prepend the document and page at the beginning
                 # Final result: 411-10, AML Officer, Section 14(b)
-                final_source = f"{doc_num}_et.pdf, Page {page_num}"
+                final_source = f"{filename}, Page {page_num}"
 
                 entry = {
                     "question": item.get("question"),
@@ -176,7 +170,7 @@ def generate_hard():
     # ============================================================
     
     results = []
-    output_file = "../../Data/test_rag/hard_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/hard_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -194,13 +188,12 @@ def generate_hard():
             
             # Data from Python (file name and page)
             filename = os.path.basename(chunk.metadata.get('source', 'Unknown'))
-            doc_num = get_doc_number(filename)
-            page_num = chunk.metadata.get('page', 0) + 1 # 1 page based
+            page_num = chunk.metadata.get('page_label', 0) # page number
 
             for item in data_list:
                 # We prepend the document and page at the beginning
                 # Final result: 411-10, AML Officer, Section 14(b)
-                final_source = f"{doc_num}_et.pdf, Page {page_num}"
+                final_source = f"{filename}, Page {page_num}"
 
                 entry = {
                     "question": item.get("question"),
@@ -240,7 +233,7 @@ def generate_soft():
     # ============================================================
     
     results = []
-    output_file = "../../Data/test_rag/soft_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/soft_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -259,13 +252,12 @@ def generate_soft():
             
             # Data from Python (file name and page)
             filename = os.path.basename(chunk.metadata.get('source', 'Unknown'))
-            doc_num = get_doc_number(filename)
-            page_num = chunk.metadata.get('page', 0) + 1 # 1 page based
+            page_num = chunk.metadata.get('page_label', 0) # page number
 
             for item in data_list:
                 # We prepend the document and page at the beginning
                 # Final result: 411-10, AML Officer, Section 14(b)
-                final_source = f"{doc_num}_et.pdf, Page {page_num}"
+                final_source = f"{filename}, Page {page_num}"
 
                 entry = {
                     "question": item.get("question"),
@@ -291,13 +283,13 @@ def mix_dat_tst():
     # --------------------------
     # Load the JSON files
     # --------------------------
-    with open("../../Data/test_rag/hard_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/hard_rag_test.json", "r", encoding="utf-8") as f:
         data1 = json.load(f)
 
-    with open("../../Data/test_rag/soft_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/soft_rag_test.json", "r", encoding="utf-8") as f:
         data2 = json.load(f)
 
-    with open("../../Data/test_rag/clean_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/clean_rag_test.json", "r", encoding="utf-8") as f:
         data3 = json.load(f)
 
     # --------------------------
@@ -309,7 +301,7 @@ def mix_dat_tst():
     # --------------------------
     # Define output folder and file (existing folder)
     # --------------------------
-    output_file = "../../Data/test_rag/complete_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/complete_rag_test.json" # Output File
 
     # --------------------------
     # Save combined JSON

@@ -1,0 +1,242 @@
+[
+    {
+        "question": "Must we conduct a periodic independent internal assessment of the credit-granting functions?",
+        "context": "assigned to the relevant functions. \nc. Senior management shall ascertain that a periodic independent internal  \nassessment of the credit-granting and management functions is conducted. \nCredit policy: \n14. A cornerstone of sound banking management is the implementation of written \npolicies, anchored in a policy statement , and procedures related to identifying, \nmeasuring, monitoring, supervising, and controlling credit risk. The credit policy \nestablishes the framework for lending and guides the banking corporation’s credit-\ngranting activities.  \n The Chief Risk Officer of a banking corporation is responsible for helping the Chief \nExecutive Officer to prepare the credit policy statement  in conjunction with all \nrelevant functions at the banking corporation, particularly staff and managers of \nbusiness lines. \n15. The credit policy statement shall include, inter alia:",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 11"
+    },
+    {
+        "question": "Is it acceptable to implement credit policies without a written policy statement?",
+        "context": "assigned to the relevant functions. \nc. Senior management shall ascertain that a periodic independent internal  \nassessment of the credit-granting and management functions is conducted. \nCredit policy: \n14. A cornerstone of sound banking management is the implementation of written \npolicies, anchored in a policy statement , and procedures related to identifying, \nmeasuring, monitoring, supervising, and controlling credit risk. The credit policy \nestablishes the framework for lending and guides the banking corporation’s credit-\ngranting activities.  \n The Chief Risk Officer of a banking corporation is responsible for helping the Chief \nExecutive Officer to prepare the credit policy statement  in conjunction with all \nrelevant functions at the banking corporation, particularly staff and managers of \nbusiness lines. \n15. The credit policy statement shall include, inter alia:",
+        "answer": "No",
+        "source": "311_et.pdf, Page 11"
+    },
+    {
+        "question": "Must we obtain explicit consent from the customer for an all-purpose loan marketing activity?",
+        "context": "includes the identity of the banking corporation, the service offered at the point \nof sale or rent, and the disclaimer regarding action taken when borrower fails \nto service the loan, as stated in Section 5(c) of the Banking Law (Service to the \nCustomer);  \n2) If an all-purpose loan marketing activity was performed, the effective granting \nof the credit is contingent upon the customer’s explicit consent on an additional \nmeans of consent , such as digital or telepho ne confirmation, on a separate \noccasion. Within this framework, the banking corporation will present  the \nmaterial terms of the credit transaction and will stress any modifications made \nto the details of the original offer, provided that the banking corpora tion is \npermitted to make such modifications after having made the original offer. The",
+        "answer": "Yes",
+        "source": "311a_en.pdf, Page 6"
+    },
+    {
+        "question": "Is it permissible to modify the terms of the credit transaction without informing the customer?",
+        "context": "includes the identity of the banking corporation, the service offered at the point \nof sale or rent, and the disclaimer regarding action taken when borrower fails \nto service the loan, as stated in Section 5(c) of the Banking Law (Service to the \nCustomer);  \n2) If an all-purpose loan marketing activity was performed, the effective granting \nof the credit is contingent upon the customer’s explicit consent on an additional \nmeans of consent , such as digital or telepho ne confirmation, on a separate \noccasion. Within this framework, the banking corporation will present  the \nmaterial terms of the credit transaction and will stress any modifications made \nto the details of the original offer, provided that the banking corpora tion is \npermitted to make such modifications after having made the original offer. The",
+        "answer": "No",
+        "source": "311a_en.pdf, Page 6"
+    },
+    {
+        "question": "Am I allowed to complete the authentication process after contracting with the service recipient if I was unable to verify their identification details?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business (12/24 [28]  \nManagement of Anti-Money Laundering and Countering Financing of Terrorism Risks   Page 411-49 \n \n \n \nONLY THE HEBREW VERSION IS BINDING \n \nabove when there is a change in the payment account details or a change in the means \nof payment details (to the extent that such changes are known to the banking \ncorporation).  \nIf, when contracting with the service recipient , the banking corporation was unable to \nauthenticate the service recipient’s identification details v is-à-vis the Population \nRegistry as required in Section 4(a) or to authenticate that the service recipient is the \nowner of the payment account or of the means of payment as required in Section 4(b), \nit may complete the authentication or verification proces s as so on as possible after",
+        "answer": "Yes",
+        "source": "411_et.pdf, Page 49"
+    },
+    {
+        "question": "Must we proceed with a transaction if we cannot authenticate the service recipient's payment account ownership at the time of contracting?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business (12/24 [28]  \nManagement of Anti-Money Laundering and Countering Financing of Terrorism Risks   Page 411-49 \n \n \n \nONLY THE HEBREW VERSION IS BINDING \n \nabove when there is a change in the payment account details or a change in the means \nof payment details (to the extent that such changes are known to the banking \ncorporation).  \nIf, when contracting with the service recipient , the banking corporation was unable to \nauthenticate the service recipient’s identification details v is-à-vis the Population \nRegistry as required in Section 4(a) or to authenticate that the service recipient is the \nowner of the payment account or of the means of payment as required in Section 4(b), \nit may complete the authentication or verification proces s as so on as possible after",
+        "answer": "No",
+        "source": "411_et.pdf, Page 49"
+    },
+    {
+        "question": "Must we document the information flow with external entities?",
+        "context": "24. The reciprocal relationships and information flow among the internal functions and external \nentities shall be formally defined and documented. External entities to the banking corporation \ninclude, inter alia: regulatory entities, investigative and enforcement entities, the National Cyber \nBureau, peer cyber risk management entities within the financial sector, risk management \nfunctions of suppliers and counterparties, and cyber-information-sharing bodies.",
+        "answer": "Yes",
+        "source": "361_et.pdf, Page 9"
+    },
+    {
+        "question": "Are we allowed to ignore the relationships with regulatory entities?",
+        "context": "24. The reciprocal relationships and information flow among the internal functions and external \nentities shall be formally defined and documented. External entities to the banking corporation \ninclude, inter alia: regulatory entities, investigative and enforcement entities, the National Cyber \nBureau, peer cyber risk management entities within the financial sector, risk management \nfunctions of suppliers and counterparties, and cyber-information-sharing bodies.",
+        "answer": "No",
+        "source": "361_et.pdf, Page 9"
+    },
+    {
+        "question": "Must the credit management strategy be approved by the board of directors at least once per year?",
+        "context": "statement, see Section 15 below. \na. The credit management strategy and the credit policy statement s shall be \napproved and periodically reviewed by the board of directors (in accordance \nwith Section 18 of Proper Conduct of Banking Business Directive 301, “Board \nof Directors,” hereinafter “Directive 301,” i.e., at least once per year). \nb. The board of directors shall also approve mid-year changes in the credit policy \nand shall examine the need fo r mid -year changes in response to external \nchanges that so require. The board of directors shall assure that the strategy and \nthe policy cover s all banking corporation activities in which credit exposure \ncarries a significant risk.",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 7"
+    },
+    {
+        "question": "Is it unnecessary for the board of directors to review mid-year changes in the credit policy?",
+        "context": "statement, see Section 15 below. \na. The credit management strategy and the credit policy statement s shall be \napproved and periodically reviewed by the board of directors (in accordance \nwith Section 18 of Proper Conduct of Banking Business Directive 301, “Board \nof Directors,” hereinafter “Directive 301,” i.e., at least once per year). \nb. The board of directors shall also approve mid-year changes in the credit policy \nand shall examine the need fo r mid -year changes in response to external \nchanges that so require. The board of directors shall assure that the strategy and \nthe policy cover s all banking corporation activities in which credit exposure \ncarries a significant risk.",
+        "answer": "No",
+        "source": "311_et.pdf, Page 7"
+    },
+    {
+        "question": "Must we implement a credit risk mitigation policy to manage portfolio concentration?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [10] (11/23)  \nCredit Risk Management \nPage 311-13 \n \n \n \nf. credit risk mitigation policy (e.g., by means of credit insurance, sale of debts, \nsyndication) and the use of additional mechanisms to mitigate portfolio \nconcentration; \ng. a program for monitoring developments in the credit portfolio, including \nindicators for reporting, frequency of reporting, action plans when credit risk \nincreases or when limits are breached, and description of management \ninformation systems (see also Chapter E of Directive 310); \nh. requisite borrower characteristics for credit granting (including general \nconditions and covenants) including assessment of capacity to repay, credit \nrating, business experience, updated financial data—which allow the reliable \nanalysis of the borrower’s up to date financial status, the strength and stability",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 13"
+    },
+    {
+        "question": "Is it acceptable to grant credit without assessing the borrower's capacity to repay?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [10] (11/23)  \nCredit Risk Management \nPage 311-13 \n \n \n \nf. credit risk mitigation policy (e.g., by means of credit insurance, sale of debts, \nsyndication) and the use of additional mechanisms to mitigate portfolio \nconcentration; \ng. a program for monitoring developments in the credit portfolio, including \nindicators for reporting, frequency of reporting, action plans when credit risk \nincreases or when limits are breached, and description of management \ninformation systems (see also Chapter E of Directive 310); \nh. requisite borrower characteristics for credit granting (including general \nconditions and covenants) including assessment of capacity to repay, credit \nrating, business experience, updated financial data—which allow the reliable \nanalysis of the borrower’s up to date financial status, the strength and stability",
+        "answer": "No",
+        "source": "311_et.pdf, Page 13"
+    },
+    {
+        "question": "Must we monitor credits with deteriorating ratings more frequently?",
+        "context": "banking corporation shall decide whether to rate borrower or counterparty risk, the \nrisk inherent in a specific transaction, or both. \n61. Internal rating is an important tool in monitoring and controlling credit risk. To \nfacilitate early identification of changes in risk profiles, the internal rating system \nshall be responsive to indicators of potential or actual deterioration in credit risk. \nCredits with deteriorating ratings shall be subject to additional oversight and \nmonitoring, for example, through more frequent visits from credit officers and \ninclusion on a watch  list that is regularly reviewed by senior management. The \ninternal ratings shall be used by line management in different departments to track \nthe current characteristics of the credit portfolio and help determine necessary",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 40"
+    },
+    {
+        "question": "Is it permissible to ignore changes in a borrower's credit risk profile?",
+        "context": "banking corporation shall decide whether to rate borrower or counterparty risk, the \nrisk inherent in a specific transaction, or both. \n61. Internal rating is an important tool in monitoring and controlling credit risk. To \nfacilitate early identification of changes in risk profiles, the internal rating system \nshall be responsive to indicators of potential or actual deterioration in credit risk. \nCredits with deteriorating ratings shall be subject to additional oversight and \nmonitoring, for example, through more frequent visits from credit officers and \ninclusion on a watch  list that is regularly reviewed by senior management. The \ninternal ratings shall be used by line management in different departments to track \nthe current characteristics of the credit portfolio and help determine necessary",
+        "answer": "No",
+        "source": "311_et.pdf, Page 40"
+    },
+    {
+        "question": "Must we manage credit risk in both individual transactions and the entire portfolio?",
+        "context": "counterparty vis-à-vis a banking corporation  will fail to meet its obligations in \naccordance with agreed terms. The goal of credit risk management is to maximi ze \na bank’s risk -adjusted rate of return by maintaining credit risk exposure wit hin \nacceptable parameters. Banking corporations  need to manag e the credit risk \ninherent in the entire portfolio as well as the risk in individual credits or \ntransactions. Banking corporations should also consider the relationship between \ncredit risk and other risks. Effective management of credit risk is a critical \ncomponent of comprehensive risk management and is essential to the long -term \nsuccess of any banking institution. \n3. Loans are the largest and most obvious source of credit risk  to a banking \ncorporation. However, other sources of credit risk exist in many other activities of",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 4"
+    },
+    {
+        "question": "Is it acceptable for a banking corporation to ignore the relationship between credit risk and other risks?",
+        "context": "counterparty vis-à-vis a banking corporation  will fail to meet its obligations in \naccordance with agreed terms. The goal of credit risk management is to maximi ze \na bank’s risk -adjusted rate of return by maintaining credit risk exposure wit hin \nacceptable parameters. Banking corporations  need to manag e the credit risk \ninherent in the entire portfolio as well as the risk in individual credits or \ntransactions. Banking corporations should also consider the relationship between \ncredit risk and other risks. Effective management of credit risk is a critical \ncomponent of comprehensive risk management and is essential to the long -term \nsuccess of any banking institution. \n3. Loans are the largest and most obvious source of credit risk  to a banking \ncorporation. However, other sources of credit risk exist in many other activities of",
+        "answer": "No",
+        "source": "311_et.pdf, Page 4"
+    },
+    {
+        "question": "Must we ensure that information-security and cyber-defense measures are in place for all access channels to cloud-computing services?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business (06/22) [4] \nCloud Computing  Page 362-12 \n \n \n \n36. A banking corporation must make sure that information-security and cyber-defense \nmeans are in place for all  access channels to and from the cloud-computing service, \nmaking it possible to minimize the use of these channels to attack the banking \ncorporation. \n \nChapter G2: Business Continuity  \n37. Insofar as cloud computing is a critical service for the banking corporation, the \nrelevant requirements in Proper Conduct of Banking Business Directive  355, \n“Business Continuity Management,” shall apply to it. \n38. Insofar as cloud-computing service is given in a location other than Israel, a banking \ncorporation shall examine plans for response to a scenario of service unavailability \ndue to disruption of communication or geopolitical events vis -à-vis the  foreign",
+        "answer": "Yes",
+        "source": "362_et.pdf, Page 12"
+    },
+    {
+        "question": "Are we allowed to ignore business continuity requirements for cloud computing services located outside of Israel?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business (06/22) [4] \nCloud Computing  Page 362-12 \n \n \n \n36. A banking corporation must make sure that information-security and cyber-defense \nmeans are in place for all  access channels to and from the cloud-computing service, \nmaking it possible to minimize the use of these channels to attack the banking \ncorporation. \n \nChapter G2: Business Continuity  \n37. Insofar as cloud computing is a critical service for the banking corporation, the \nrelevant requirements in Proper Conduct of Banking Business Directive  355, \n“Business Continuity Management,” shall apply to it. \n38. Insofar as cloud-computing service is given in a location other than Israel, a banking \ncorporation shall examine plans for response to a scenario of service unavailability \ndue to disruption of communication or geopolitical events vis -à-vis the  foreign",
+        "answer": "No",
+        "source": "362_et.pdf, Page 12"
+    },
+    {
+        "question": "Must we inform the customer of the period during which the credit offer will remain in effect?",
+        "context": "additional due disclosure that is required according to the development/progress of the \nconversation. \n19. The banking corporation will determine the period during which the credit offer will \nremain in effect, and will inform the customer of said period. \n20. The banking corporation will maintain a simple, reasonable, orderly, and published \nmechanism for removing a customer from its marketing list at the customer’s request \nand will inform the customer , as required, among other things, by the Protection of \nPrivacy Law, 5741-1981 and the Communications (Bezeq and Broadcasts) Law, 5742-\n1982. \n21. In initiated credit marketing, the banking corporation must: \n1) as a rule, avoid initiated credit marketing to disadvantaged populations and \nindividuals under age 21; \n2) avoid aggressive credit marketing and putting pressure on customers to make",
+        "answer": "Yes",
+        "source": "311a_en.pdf, Page 5"
+    },
+    {
+        "question": "Is it permissible to initiate credit marketing to individuals under age 21?",
+        "context": "additional due disclosure that is required according to the development/progress of the \nconversation. \n19. The banking corporation will determine the period during which the credit offer will \nremain in effect, and will inform the customer of said period. \n20. The banking corporation will maintain a simple, reasonable, orderly, and published \nmechanism for removing a customer from its marketing list at the customer’s request \nand will inform the customer , as required, among other things, by the Protection of \nPrivacy Law, 5741-1981 and the Communications (Bezeq and Broadcasts) Law, 5742-\n1982. \n21. In initiated credit marketing, the banking corporation must: \n1) as a rule, avoid initiated credit marketing to disadvantaged populations and \nindividuals under age 21; \n2) avoid aggressive credit marketing and putting pressure on customers to make",
+        "answer": "No",
+        "source": "311a_en.pdf, Page 5"
+    },
+    {
+        "question": "Must the AML/CFT Officer present an annual assessment report to the management and board of directors?",
+        "context": "17. The AML/CFT Officer shall present the management and board of directors of the \nbanking corporation , directly, with an annual assessment report on the \nimplementation of the banking corporation’s policy, with reference to assimilating \nrequirements flowing from statutes, regulations, and directives in to its procedures, \nand on the banking corporation’s risks and exposures as a whole. \n18. (a) The AML/CFT Officer may discharge his/her duties under the Law, the Order, \nand the provisions of this Directive via a person whom he/ she authorizes in \nwriting for this purpose, and shall keep documentation in regard thereto. \n(b) Even if the AML/CFT Officer  authorizes an employee  at the banking \ncorporation as set forth in Section (a), responsibility shall remain his/hers. \n(c) The AML/CFT officer of the parent bank shall review such risks, itemized by",
+        "answer": "Yes",
+        "source": "411_et.pdf, Page 11"
+    },
+    {
+        "question": "Can the AML/CFT Officer delegate all responsibilities to another employee without retaining any accountability?",
+        "context": "17. The AML/CFT Officer shall present the management and board of directors of the \nbanking corporation , directly, with an annual assessment report on the \nimplementation of the banking corporation’s policy, with reference to assimilating \nrequirements flowing from statutes, regulations, and directives in to its procedures, \nand on the banking corporation’s risks and exposures as a whole. \n18. (a) The AML/CFT Officer may discharge his/her duties under the Law, the Order, \nand the provisions of this Directive via a person whom he/ she authorizes in \nwriting for this purpose, and shall keep documentation in regard thereto. \n(b) Even if the AML/CFT Officer  authorizes an employee  at the banking \ncorporation as set forth in Section (a), responsibility shall remain his/hers. \n(c) The AML/CFT officer of the parent bank shall review such risks, itemized by",
+        "answer": "No",
+        "source": "411_et.pdf, Page 11"
+    },
+    {
+        "question": "Must we follow a careful and responsible process when granting household credit?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [2] (09/21)  \nConsumer Credit Management \n311A     Page 1 \n \n \nConsumer Credit Management \nGeneral \n1. Ready availability of consumer credit is essential for economic growth and an \nadequate standard of living, yet expansion of consumer credit and household \nconsumption and increased competition in this field may lead to over -indebtedness \nthat does not match the f inancial capabilities of some customers and, in extreme \nsituations, may have a negative impact on their economic welfare. Therefore, banking \ncorporations must follow a careful, responsible, and fair process  when granting \nhousehold credit. \n2. Proper policy and  procedures for granting credit to household consumers in a \nresponsible manner is important both to prevent households —especially \ndisadvantaged households–from overleveraging themselves (which, in extreme",
+        "answer": "Yes",
+        "source": "311a_en.pdf, Page 1"
+    },
+    {
+        "question": "Is it acceptable to grant credit to households without considering their financial capabilities?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [2] (09/21)  \nConsumer Credit Management \n311A     Page 1 \n \n \nConsumer Credit Management \nGeneral \n1. Ready availability of consumer credit is essential for economic growth and an \nadequate standard of living, yet expansion of consumer credit and household \nconsumption and increased competition in this field may lead to over -indebtedness \nthat does not match the f inancial capabilities of some customers and, in extreme \nsituations, may have a negative impact on their economic welfare. Therefore, banking \ncorporations must follow a careful, responsible, and fair process  when granting \nhousehold credit. \n2. Proper policy and  procedures for granting credit to household consumers in a \nresponsible manner is important both to prevent households —especially \ndisadvantaged households–from overleveraging themselves (which, in extreme",
+        "answer": "No",
+        "source": "311a_en.pdf, Page 1"
+    },
+    {
+        "question": "Must we receive a list of merchants from an aggregator before concentrating debits and credits?",
+        "context": "“Merchant”—a business that engages in retail activity compris ed of the sale of \nservices or goods. \n77. An acquirer  shall not concentrate debits and credits for an aggregator until it \nreceives a list of merchants with which the aggregator  transacts, as well as an \nundertaking from the aggregator to update the acquirer regularly as to every \nmerchant that is added to or deleted from the list of merchants in its possession. \n78. An acquirer that provides an aggregator with acquiring services even in cases where \nit has no direct acquiring agreement with the merchant may do so provided the \nannual extent of acquiring for an individual merchant does not exceed \nNIS 2,000,000. \n Notwithstanding the above, to the extent that the reference is to an aggregator on \nwhose activity as an aggregator an Order, under the Prohibition on Money",
+        "answer": "Yes",
+        "source": "411_et.pdf, Page 31"
+    },
+    {
+        "question": "Can an acquirer provide services to an aggregator without a direct agreement with the merchant if the annual extent exceeds NIS 2,000,000?",
+        "context": "“Merchant”—a business that engages in retail activity compris ed of the sale of \nservices or goods. \n77. An acquirer  shall not concentrate debits and credits for an aggregator until it \nreceives a list of merchants with which the aggregator  transacts, as well as an \nundertaking from the aggregator to update the acquirer regularly as to every \nmerchant that is added to or deleted from the list of merchants in its possession. \n78. An acquirer that provides an aggregator with acquiring services even in cases where \nit has no direct acquiring agreement with the merchant may do so provided the \nannual extent of acquiring for an individual merchant does not exceed \nNIS 2,000,000. \n Notwithstanding the above, to the extent that the reference is to an aggregator on \nwhose activity as an aggregator an Order, under the Prohibition on Money",
+        "answer": "No",
+        "source": "411_et.pdf, Page 31"
+    },
+    {
+        "question": "Am I allowed to process a deposit of numerous checks that are inconsistent with the customer's account activity?",
+        "context": "(a) endorsed checks; \n(b) deposits o f numerous checks, which are not consistent with the activity in the \ncustomer’s account; \n(c) checks drawn on foreign banks ; in such cases, before the clearing transaction \ntakes place, the banking corporation shall ensure the existence of a linkage \nbetween the depositing of the check and the performance of a transaction with \na banking corporation in Israel.",
+        "answer": "No",
+        "source": "411_et.pdf, Page 32"
+    },
+    {
+        "question": "Must we ensure a linkage between the depositing of a check drawn on a foreign bank and a transaction with a banking corporation in Israel before clearing?",
+        "context": "(a) endorsed checks; \n(b) deposits o f numerous checks, which are not consistent with the activity in the \ncustomer’s account; \n(c) checks drawn on foreign banks ; in such cases, before the clearing transaction \ntakes place, the banking corporation shall ensure the existence of a linkage \nbetween the depositing of the check and the performance of a transaction with \na banking corporation in Israel.",
+        "answer": "Yes",
+        "source": "411_et.pdf, Page 32"
+    },
+    {
+        "question": "Must we manage risks from an integrated and firm-wide perspective?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [3] (02/23)  \nRisk Management                                                                                             Page 310-5 \n \n \n \n A strong risk culture and good communication among the three lines of defense are \nimportant characteristics of appropriate risk governance. \nRisk management principles at a banking corporation  \n5. A banking corporation  shall manage its risks in accordance with the following \nprinciples: \n(a) Risks shall be managed from an integrated and firm-wide perspective up and \ndown the management chain and also across business functions, using \nconsistent methodologies and terminologies.  \n(b) Risks shall be identified and monitored on an ongoing basis, at both the group \nand the individual entity levels. \n(c) Risks shall be managed from a forward -looking perspective that includes,",
+        "answer": "Yes",
+        "source": "310_et.pdf, Page 5"
+    },
+    {
+        "question": "Is it acceptable to ignore ongoing risk monitoring at the individual entity level?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [3] (02/23)  \nRisk Management                                                                                             Page 310-5 \n \n \n \n A strong risk culture and good communication among the three lines of defense are \nimportant characteristics of appropriate risk governance. \nRisk management principles at a banking corporation  \n5. A banking corporation  shall manage its risks in accordance with the following \nprinciples: \n(a) Risks shall be managed from an integrated and firm-wide perspective up and \ndown the management chain and also across business functions, using \nconsistent methodologies and terminologies.  \n(b) Risks shall be identified and monitored on an ongoing basis, at both the group \nand the individual entity levels. \n(c) Risks shall be managed from a forward -looking perspective that includes,",
+        "answer": "No",
+        "source": "310_et.pdf, Page 5"
+    },
+    {
+        "question": "Must we have explicit written policies regarding the information needed to approve new credits?",
+        "context": "of approving the application for the borrower’s financial resilience and the banking \ncorporation’s credit portfolio at large. An effective evaluation process establishes \nminimum requirements for the information on which the analysis is to be based. \nThe banking corporation should have explicit written policies in place regarding the \ninformation and documentation needed to approve new credits, renew existing \ncredits, and/or change the terms and conditions of previously approved credits. The \ninformation received will be the basis for any internal evaluation or rating assigned \nto the credit or for any other internal assessment. Therefore, its accuracy and \nadequacy is critical for appropriate management decisions about the acceptability \nof the credit.",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 31"
+    },
+    {
+        "question": "Is it acceptable to approve credits without verifying the accuracy of the information received?",
+        "context": "of approving the application for the borrower’s financial resilience and the banking \ncorporation’s credit portfolio at large. An effective evaluation process establishes \nminimum requirements for the information on which the analysis is to be based. \nThe banking corporation should have explicit written policies in place regarding the \ninformation and documentation needed to approve new credits, renew existing \ncredits, and/or change the terms and conditions of previously approved credits. The \ninformation received will be the basis for any internal evaluation or rating assigned \nto the credit or for any other internal assessment. Therefore, its accuracy and \nadequacy is critical for appropriate management decisions about the acceptability \nof the credit.",
+        "answer": "No",
+        "source": "311_et.pdf, Page 31"
+    },
+    {
+        "question": "Must we report breaches of limits to management?",
+        "context": "(3) identify and forewarn about breaches of limits; \n(4) allow forward-looking scenario analyses; \n(5) reflect hedging and risk-mitigation transactions. \n(b) The MIS shall be flexible enough to adjust to changes in underlying risk \nassumptions and to present a risk exposure from different angles of \nobservation. \n \nRisk reporting system \n21. A banking corporation  shall maintain effective communication, both horizontal \n(across the organization) and vertical (up the management chain) , to help avert \ndecisions that are not consistent with the exposure to change. Such communication \nshall be based on the reporting array specified below: \n(a) Reporting frequency and structure shall correspond to what is considered \nappropriate for the type of risk and requirements presented by the board of \ndirectors and management.",
+        "answer": "Yes",
+        "source": "310_et.pdf, Page 20"
+    },
+    {
+        "question": "Is it permissible to ignore changes in underlying risk assumptions?",
+        "context": "(3) identify and forewarn about breaches of limits; \n(4) allow forward-looking scenario analyses; \n(5) reflect hedging and risk-mitigation transactions. \n(b) The MIS shall be flexible enough to adjust to changes in underlying risk \nassumptions and to present a risk exposure from different angles of \nobservation. \n \nRisk reporting system \n21. A banking corporation  shall maintain effective communication, both horizontal \n(across the organization) and vertical (up the management chain) , to help avert \ndecisions that are not consistent with the exposure to change. Such communication \nshall be based on the reporting array specified below: \n(a) Reporting frequency and structure shall correspond to what is considered \nappropriate for the type of risk and requirements presented by the board of \ndirectors and management.",
+        "answer": "No",
+        "source": "310_et.pdf, Page 20"
+    },
+    {
+        "question": "Am I allowed to grant loans to temporary beneficiaries of nondistancing policies?",
+        "context": "“Temporary beneficiary of nondistancing policies” —one who belong s to a group \neligible for temporary protection from distancing and received a license by the power \nof Section 2(a)(5) of the Entry into Israel Law or a B/1 work license granted by power \nof Section 2(a)(5) of the Entry into Israel Law.",
+        "answer": "Yes",
+        "source": "411_et.pdf, Page 47"
+    },
+    {
+        "question": "Must we report temporary beneficiaries of nondistancing policies as regular clients?",
+        "context": "“Temporary beneficiary of nondistancing policies” —one who belong s to a group \neligible for temporary protection from distancing and received a license by the power \nof Section 2(a)(5) of the Entry into Israel Law or a B/1 work license granted by power \nof Section 2(a)(5) of the Entry into Israel Law.",
+        "answer": "No",
+        "source": "411_et.pdf, Page 47"
+    },
+    {
+        "question": "Must we assess our credit risk exposures under adverse scenarios including stress scenarios?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [10] (11/23)  \nCredit Risk Management \nPage 311-45 \n \n \n \nPrinciple 13: A banking corporation shall take into consideration potential future \nchanges in economic conditions when assessing individual credits and credit \nportfolios, and shall assess its credit risk exposures  under adverse scenarios \nincluding stress scenarios. \n73. An important element of sound credit risk management entails discussing what  \ncould potentially go wrong with individual credits and within the various credit \nportfolios, and factoring this information into the analysis of the adequacy of capital \nand credit loss provisions. This “what if” analysis may reveal previously undetected \nareas of potential credit risk exposure for  the banking corporation. The linkages \nbetween different focal points of risk that are likely to emerge in times  of crisis",
+        "answer": "Yes",
+        "source": "311_et.pdf, Page 45"
+    },
+    {
+        "question": "Is it unnecessary to consider potential future changes in economic conditions when assessing individual credits?",
+        "context": "Supervisor of Banks: Proper Conduct of Banking Business [10] (11/23)  \nCredit Risk Management \nPage 311-45 \n \n \n \nPrinciple 13: A banking corporation shall take into consideration potential future \nchanges in economic conditions when assessing individual credits and credit \nportfolios, and shall assess its credit risk exposures  under adverse scenarios \nincluding stress scenarios. \n73. An important element of sound credit risk management entails discussing what  \ncould potentially go wrong with individual credits and within the various credit \nportfolios, and factoring this information into the analysis of the adequacy of capital \nand credit loss provisions. This “what if” analysis may reveal previously undetected \nareas of potential credit risk exposure for  the banking corporation. The linkages \nbetween different focal points of risk that are likely to emerge in times  of crisis",
+        "answer": "No",
+        "source": "311_et.pdf, Page 45"
+    },
+    {
+        "question": "Must we discuss the risk report at least once per quarter?",
+        "context": "the banking corporation’s activities; \n(d) examine and approve new products before launching, as specified in Section \n16. \n(e) To discharge these duties, the board of directors shall, at the very least: \n(1) ensure that the Chief Risk Officer enjoys an appropriate status and that the \nrisk management function that s he or he heads is appropriately staffed, \nadequately resourced, and independent and effective in the discharge of its \nduties; \n(2) discuss the risk report specified in Section 22 at least once per quarter; \n(3) decide which matters it wishes to submit to the board of directors risk \nmanagement committee for more thorough examination. \n(4) discuss annually the credit control activity review specified in Directive \n319. \n \nRisk management committee \n8. The board of directors risk management committee shall:",
+        "answer": "Yes",
+        "source": "310_et.pdf, Page 7"
+    },
+    {
+        "question": "Is it permissible for the Chief Risk Officer to be involved in product approval before launching?",
+        "context": "the banking corporation’s activities; \n(d) examine and approve new products before launching, as specified in Section \n16. \n(e) To discharge these duties, the board of directors shall, at the very least: \n(1) ensure that the Chief Risk Officer enjoys an appropriate status and that the \nrisk management function that s he or he heads is appropriately staffed, \nadequately resourced, and independent and effective in the discharge of its \nduties; \n(2) discuss the risk report specified in Section 22 at least once per quarter; \n(3) decide which matters it wishes to submit to the board of directors risk \nmanagement committee for more thorough examination. \n(4) discuss annually the credit control activity review specified in Directive \n319. \n \nRisk management committee \n8. The board of directors risk management committee shall:",
+        "answer": "No",
+        "source": "310_et.pdf, Page 7"
+    }
+]

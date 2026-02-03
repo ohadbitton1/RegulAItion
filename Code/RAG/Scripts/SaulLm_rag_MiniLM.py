@@ -10,7 +10,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 # ================= CONFIGURATION =================
 PROJECT_ROOT = "/content/drive/MyDrive/RegulAItion"
 
-DB_PATH = os.path.join(PROJECT_ROOT, "Data", "RAG_db_all")           # existing VECTOR DB (all)
+DB_PATH = os.path.join(PROJECT_ROOT, "Data", "RAG_db_MiniLM")           # existing VECTOR DB (all)
 SAUL_ADAPTER_PATH = os.path.join(PROJECT_ROOT, "Models", "saul_adapter")
 
 SAUL_BASE_MODEL = "Equall/Saul-7B-Instruct-v1"                      # matches your logs
@@ -227,7 +227,7 @@ def main():
         db_path, adapter_path = setup_environment()
         model, tokenizer, col, embedder = load_system(db_path, adapter_path)
 
-        print("\n✅ SAUL SYSTEM READY (RAG_db_all). ASKING QUESTIONS...\n")
+        print("\n✅ SAUL SYSTEM READY (RAG_db_MiniLM). ASKING QUESTIONS...\n")
 
         while True:
             q = input("❓ Question (or 'exit'): ").strip()

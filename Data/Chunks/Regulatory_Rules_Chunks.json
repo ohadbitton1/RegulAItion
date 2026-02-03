@@ -3,7 +3,7 @@
     "total_chunks": 518,
     "chunk_size": 900,
     "chunk_overlap": 130,
-    "source_dir": "D:\\Year_3\\NLP\\Project\\Banking-Regulation-QA\\Data\\Regulatory_Rules"
+    "source_dir": "D:\\Year_3\\NLP\\Project\\RegulAItion\\Data\\Regulatory_Rules"
   },
   "chunks": [
     {

@@ -19,7 +19,7 @@ def parse_args():
     parser.add_argument("--output_dir", type=str, required=True, help="Folder name for saved adapter")
     
     # Optional: Path to training data (Default points to FT_datasets)
-    default_data_path = os.path.join("..", "Data", "FT_datasets", "train_dataset.json")
+    default_data_path = os.path.join("..", "..", "Data", "FT_datasets", "train_dataset.json")
     parser.add_argument("--train_file", type=str, default=default_data_path, help="Path to training JSON")
     
     parser.add_argument("--max_steps", type=int, default=60, help="Training steps")

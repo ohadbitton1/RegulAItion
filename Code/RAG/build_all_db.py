@@ -12,7 +12,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Define absolute paths relative to this script
 # Save DB in the same folder as this script
-DB_PATH = "../../Data/RAG_db_all"
+DB_PATH = "../../Data/RAG_db_MiniLM"
 
 COLLECTION_NAME = "regulations"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2" 

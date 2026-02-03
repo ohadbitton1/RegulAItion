@@ -3,7 +3,7 @@ import argparse
 import os
 
 # Define the default directory for results relative to the 'Code' folder
-RESULTS_DIR = os.path.join("..", "Results")
+RESULTS_DIR = os.path.join("..", "..", "Results")
 
 def parse_args():
     """Parse command line arguments."""

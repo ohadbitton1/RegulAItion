@@ -10,11 +10,11 @@ from tqdm import tqdm
 # ================= PATHS =================
 PROJECT_ROOT = "/content/drive/MyDrive/RegulAItion"
 # נתיב מעודכן לפי עץ הקבצים ששלחת
-TEST_FILE_PATH = os.path.join(PROJECT_ROOT, "Data", "test_rag", "complete_rag_test.json")
+TEST_FILE_PATH = os.path.join(PROJECT_ROOT, "Data", "final_eval_questions", "complete_rag_test.json")
 RESULTS_DIR = os.path.join(PROJECT_ROOT, "Results")
 
 DB_PATHS = {
-    'minilm': os.path.join(PROJECT_ROOT, "Data", "RAG_db_all"),
+    'minilm': os.path.join(PROJECT_ROOT, "Data", "RAG_db_MiniLM"),
     'legalbert': os.path.join(PROJECT_ROOT, "Data", "RAG_db_legal")
 }
 
