@@ -26,7 +26,7 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 
     - Hallucination Training: 15–20% Negative Samples (Hard & Soft). These force the model to output "N.A" when evidence is absent, reducing hallucinations and overconfidence. 🛡️
 
-![Data example](Resources/Images/data_example.png "Data_example")
+![Data example](Resources/Images/data_example.png "Data example")
 
 ## 🛠️ **Technical Stack & Models**
 - 🤖 Generative Models (LLMs):
@@ -61,11 +61,13 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 - Output (Strict JSON):  
 
     {  
-        "verdict": "Yes | No | N.A", 
-        "quote": "citation anwser is based on"
-        "source": "Circular Name, Page Number",
-        "explanation": "grounded text reasoning"  
+        "verdict": "Yes | No | N.A",  
+        "quote": "citation anwser is based on",  
+        "source": "Circular Name, Page Number",  
+        "explanation": "grounded text reasoning"   
     }  
+
+![Q&A example](Resources/Images/Q&A_example.png "Q&A example")
 
 ## 🧾 **Visual Abstract**
 
