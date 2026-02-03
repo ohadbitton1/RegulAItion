@@ -77,7 +77,6 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 - 📏 Metrics:
     - HitRate@K: Probability that the correct context appears in top-4 retrieved chunks.
     - Verdict Accuracy: Correct Yes/No/N.A classification.
-    - Citation Precision: Alignment between cited page numbers and ground-truth text. 🎯
     - Hallucination Rate: Proportion of responses that contain unsupported, fabricated, or incorrectly inferred information not grounded in the retrieved regulatory text.
 
 - 📈 Results:
