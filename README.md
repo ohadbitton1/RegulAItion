@@ -111,6 +111,7 @@ Key Finding: SaulLM + all-MiniLM achieved the highest precision on complex legal
 
 - 📁[Visuals](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Visuals) – Diagrams, visual abstracts, and illustrations
     - 📁[EDA](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Visuals/EDA) – Exploratory data analysis visualizations
+    - 📁[Flowcharts](https://github.com/ohadbitton1/RegulAItion/tree/main/Visuals/Flowcharts) – System architecture and end-to-end pipeline diagrams
 
 - 📁[Resources](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Resources) – Supplementary materials and external references
 
