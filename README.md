@@ -61,9 +61,10 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 - Output (Strict JSON):  
 
     {  
-        "verdict": "Yes | No | N.A",  
-        "explanation": "Concise, text-grounded reasoning",  
-        "citation": "Circular Name, Page Number"  
+        "verdict": "Yes | No | N.A", 
+        "quote": "citation anwser is based on"
+        "source": "Circular Name, Page Number",
+        "explanation": "grounded text reasoning"  
     }  
 
 ## 🧾 **Visual Abstract**
