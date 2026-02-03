@@ -9,11 +9,11 @@ Banking compliance is a major bottleneck due to dense, constantly changing regul
 ## 🧩 **Problem Statement**
 General-purpose LLMs are inadequate for banking compliance due to three fundamental failures:
 
-    1. Hallucinations: Models behave like stochastic parrots, fabricating rules when evidence is missing. 🦜
+- Hallucinations: Models behave like stochastic parrots, fabricating rules when evidence is missing. 🦜
 
-    2. Domain Gap: They lack fluency in Israeli banking terminology and regulatory semantics. 🏦
+- Domain Gap: They lack fluency in Israeli banking terminology and regulatory semantics. 🏦
 
-    3. Unstructured Output: They default to conversational prose instead of machine-consumable JSON required by compliance systems. 📄➡️🧾
+- Unstructured Output: They default to conversational prose instead of machine-consumable JSON required by compliance systems. 📄➡️🧾
 
 ## 🗄️ **Data & Data Engineering**
 - 📁 Data Used:
