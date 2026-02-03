@@ -26,7 +26,7 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 
     - Hallucination Training: 15–20% Negative Samples (Hard & Soft). These force the model to output "N.A" when evidence is absent, reducing hallucinations and overconfidence. 🛡️
 
-***data set pic***
+![Data example](Resources/Images/data_example.png "Data_example")
 
 ## 🛠️ **Technical Stack & Models**
 - 🤖 Generative Models (LLMs):
@@ -72,14 +72,18 @@ General-purpose LLMs are inadequate for banking compliance due to three fundamen
 
 ## 📊 **Evaluation Metrics & Results**
 - 📏 Metrics:
-    - Retrieval@4 (Hit Rate): Probability that the correct context appears in top-4 retrieved chunks.
+    - HitRate@K: Probability that the correct context appears in top-4 retrieved chunks.
     - Verdict Accuracy: Correct Yes/No/N.A classification.
     - Citation Precision: Alignment between cited page numbers and ground-truth text. 🎯
+    - Hallucination Rate: Proportion of responses that contain unsupported, fabricated, or incorrectly inferred information not grounded in the retrieved regulatory text.
 
 - 📈 Results:
-    - Retrieval Performance: HitRate@4 = 86–88%.
+    - HitRate@K = 86–90%.
+    - Verdict Accuracy = 94%-98%.  
+    - Hallucination Rate = **0%**.
     - JSON Integrity: 100% valid JSON post fine-tuning.
-    - Key Finding: SaulLM + all-MiniLM achieved the highest precision on complex legal reasoning tasks. 🏆
+
+Key Finding: SaulLM + all-MiniLM achieved the highest precision on complex legal reasoning tasks. 🏆
 
 
 ## 📁 **Repository Structure**
