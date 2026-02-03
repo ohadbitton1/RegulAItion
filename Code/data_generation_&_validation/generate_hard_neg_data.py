@@ -75,7 +75,7 @@ def generate_synthetic_data_banker():
     # ============================================================
     
     results = []
-    output_file = "../../Data/RegulAItion_dataset_hard_neg.json" # Output File
+    output_file = "../../Data/raw_datasets/RegulAItion_dataset_hard_neg.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     

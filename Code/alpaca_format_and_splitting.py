@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 # ================= CONFIGURATION =================
 # Paths relative to the 'Code' folder
 BASE_DATA_DIR = os.path.join("..", "Data")
-INPUT_FILE = os.path.join(BASE_DATA_DIR, "RegulAItion_dataset_complete.json")
+INPUT_FILE = os.path.join(BASE_DATA_DIR, "raw_datasets", "RegulAItion_dataset_complete.json")
 OUTPUT_DIR = os.path.join(BASE_DATA_DIR, "FT_datasets")
 
 TRAIN_FILE = os.path.join(OUTPUT_DIR, "train_dataset.json")

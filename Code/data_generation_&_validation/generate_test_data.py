@@ -106,7 +106,7 @@ def generate_clean():
     # ============================================================
     
     results = []
-    output_file = "../../Data/final_eval_questions/clean_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/positive_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -170,7 +170,7 @@ def generate_hard():
     # ============================================================
     
     results = []
-    output_file = "../../Data/final_eval_questions/hard_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/hard_neg_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -233,7 +233,7 @@ def generate_soft():
     # ============================================================
     
     results = []
-    output_file = "../../Data/final_eval_questions/soft_rag_test.json" # Output File
+    output_file = "../../Data/final_eval_questions/soft_neg_rag_test.json" # Output File
     
     print(f"\n--- Starting Run (Unified Source Field) ---")
     
@@ -283,13 +283,13 @@ def mix_dat_tst():
     # --------------------------
     # Load the JSON files
     # --------------------------
-    with open("../../Data/final_eval_questions/hard_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/hard_neg_rag_test.json", "r", encoding="utf-8") as f:
         data1 = json.load(f)
 
-    with open("../../Data/final_eval_questions/soft_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/soft_neg_rag_test.json", "r", encoding="utf-8") as f:
         data2 = json.load(f)
 
-    with open("../../Data/final_eval_questions/clean_rag_test.json", "r", encoding="utf-8") as f:
+    with open("../../Data/final_eval_questions/positive_rag_test.json", "r", encoding="utf-8") as f:
         data3 = json.load(f)
 
     # --------------------------

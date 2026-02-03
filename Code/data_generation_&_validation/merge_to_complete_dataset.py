@@ -23,7 +23,7 @@ random.shuffle(combined)
 # --------------------------
 # Define output folder and file (existing folder)
 # --------------------------
-output_file = "../../Data/RegulAItion_dataset_complete.json" # Output File
+output_file = "../../Data/raw_datasets/RegulAItion_dataset_complete.json" # Output File
 
 # --------------------------
 # Save combined JSON
