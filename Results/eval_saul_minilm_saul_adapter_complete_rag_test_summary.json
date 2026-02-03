@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-03T15:57:48.879894Z",
+  "model": "saul",
+  "base_model": "Equall/Saul-7B-Instruct-v1",
+  "adapter": "saul_adapter",
+  "db_type": "minilm",
+  "db_path": "/content/drive/MyDrive/RegulAItion/Data/RAG_db_MiniLM",
+  "test_json": "/content/drive/MyDrive/RegulAItion/Data/final_eval_questions/complete_rag_test.json",
+  "total_questions": 50,
+  "verdict_accuracy": 0.98,
+  "correct_count": 49,
+  "expected_na_count": 10,
+  "hallucination_count": 0,
+  "hallucination_rate_total": 0.0,
+  "hallucination_rate_on_expected_na": 0.0
+}
