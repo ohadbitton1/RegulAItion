@@ -1,25 +1,86 @@
 # 🤖 Regul𝔸𝕀tions
+Banking Compliance Made Intelligent: Navigating regulatory complexity with RAG-enhanced Fine-Tuned LLMs.  
+
+<img src="https://img.shields.io/badge/python-3.12%2B-blue" /> <img src="https://img.shields.io/badge/PEFT-LoRA-orange" /> <img src="https://img.shields.io/badge/LLM-Llama%203.1%20%7C%20SaulLM-purple" /> <img src="https://img.shields.io/badge/RAG-ChromaDB-yellow" /> <img src="https://img.shields.io/badge/Encoders-all--MiniLM%20%7C%20LegalBERT-red" />
 
 ## 🎯 **Project Motivation**
-The banking industry is heavily regulated, and professionals often need to consult multiple complex documents to determine the legality of specific actions.  
-Current tools are time-consuming, error-prone, and do not provide precise references.  
-Our goal is to leverage Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) to assist banking professionals by quickly identifying whether a requested action is permitted, concentrating relevant rules in a single centralized place, and generating clear explanatory answers.
+Banking compliance is a major bottleneck due to dense, constantly changing regulations scattered across multiple sources. RegulAItions centralizes these documents in one searchable place and uses modern LLMs to provide instant, structured, and verifiable regulatory insights. ⚖️
 
 ## 🧩 **Problem Statement**
-Banking professionals frequently face questions such as:  
-"*Is it allowed to provide agricultural credit under these conditions?*"
+General-purpose LLMs are inadequate for banking compliance due to three fundamental failures:
 
-Answering such questions requires navigating through dense regulations and cross-referencing multiple official documents. Existing systems fail to provide:
-- Direct yes/no classification (whether an action is allowed).  
-- Precise references to relevant regulatory documents, sections, and paragraphs.  
-- Clear explanatory text supporting the answer.
+    1. Hallucinations: Models behave like stochastic parrots, fabricating rules when evidence is missing. 🦜
 
-Our project addresses this by building a Regulatory Banking Q&A model that takes a query and real regulatory documents as input, and outputs:
-- Classification – Is the action possible or not.  
-- Document reference – Specific sections and paragraphs from official rules.  
-- Generated answer – Clear explanation based on the regulations.  
+    2. Domain Gap: They lack fluency in Israeli banking terminology and regulatory semantics. 🏦
 
-The model leverages RAG to retrieve relevant document chunks and is trained on a dataset containing questions, classifications, precise rules, and example answers.
+    3. Unstructured Output: They default to conversational prose instead of machine-consumable JSON required by compliance systems. 📄➡️🧾
+
+## 🗄️ **Data & Data Engineering**
+- 📁 Data Used:
+    - Source Material: 6 official Bank of Israel PDF circulars.
+
+    - Vector Database (RAG): 518 optimized text chunks stored in ChromaDB as high-dimensional vector embeddings. 🔍
+
+- 🔧 Data Augmentation & Generation:
+    - Fine-Tuning Gold Set: 2,000+ generated structured Queries, each sample contains query, response, verdict, and exact document location.
+
+    - Hallucination Training: 15–20% Negative Samples (Hard & Soft). These force the model to output "N.A" when evidence is absent, reducing hallucinations and overconfidence. 🛡️
+
+***data set pic***
+
+## 🛠️ **Technical Stack & Models**
+- 🤖 Generative Models (LLMs):
+    - Llama 3.1 — strong generalist baseline.
+    - Saul-7B-Instruct-v1 — 7B parameter model specialized for legal text. ⚖️
+
+- 🔎 Embedding Models (Encoders):
+    - all-MiniLM-L6-v2 — general semantic retrieval.
+    - LegalBERT — domain-adapted legal embeddings. 📚
+- ⚙️ Training Setup
+    - Training Framework: Unsloth for 4-bit quantized, memory-efficient training. ⚡
+    - Methodology: LoRA (Low-Rank Adaptation) for Parameter-Efficient Fine-Tuning (PEFT).🎯
+
+## 🔗 **The Hybrid Architecture (FT + RAG)**
+
+![Architecture Flowchart](Visuals/Flowcharts/Architecture.png "Architecture")
+
+- 📖 RAG (The “What”)
+    - Dynamically retrieves the most relevant regulatory context from the 518-chunk corpus.
+    - Provides the model with an “open-book” reference during inference. 📑
+- 🧠 Fine-Tuning (The “How”)
+    - Teaches the model to reason like a compliance officer.
+    - Enforces mastery of a strict JSON schema and legal decision logic.
+
+- 🔀Integration
+    - Evaluated four pipelines: (Llama / SaulLM) × (all-MiniLM / LegalBERT).
+
+## 📥📤 **Input / Output Specifications**
+- Input:
+    - Natural language regulatory query. 🗣️  
+
+- Output (Strict JSON):  
+
+    {  
+        "verdict": "Yes | No | N.A",  
+        "explanation": "Concise, text-grounded reasoning",  
+        "citation": "Circular Name, Page Number"  
+    }  
+
+## 🧾 **Visual Abstract**
+
+![Pipeline Flowchart](Visuals/Flowcharts/Pipeline.png "Pipeline")
+
+## 📊 **Evaluation Metrics & Results**
+- 📏 Metrics:
+    - Retrieval@4 (Hit Rate): Probability that the correct context appears in top-4 retrieved chunks.
+    - Verdict Accuracy: Correct Yes/No/N.A classification.
+    - Citation Precision: Alignment between cited page numbers and ground-truth text. 🎯
+
+- 📈 Results:
+    - Retrieval Performance: HitRate@4 = 86–88%.
+    - JSON Integrity: 100% valid JSON post fine-tuning.
+    - Key Finding: SaulLM + all-MiniLM achieved the highest precision on complex legal reasoning tasks. 🏆
+
 
 ## 📁 **Repository Structure**
 - 📁[Presentations](https://github.com/ohadbitton1/Banking-Regulation-QA/tree/main/Presentations) – Proposal, interim, and final presentations
