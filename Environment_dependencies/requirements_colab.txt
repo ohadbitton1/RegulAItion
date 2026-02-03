@@ -1,0 +1,20 @@
+# --- Unsloth & Zoo (Essential for both Training & Inference) ---
+unsloth_zoo @ git+https://github.com/unslothai/unsloth-zoo.git
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# --- Core Training & Model Ops ---
+xformers<0.0.29
+trl<0.13.0
+peft
+accelerate
+bitsandbytes
+datasets
+transformers
+torch
+tqdm
+
+# --- RAG & Vector DB Stack ---
+chromadb
+langchain-huggingface
+sentence-transformers
+pandas
