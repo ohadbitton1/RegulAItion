@@ -349,13 +349,40 @@ def get_expected_verdict(item: dict) -> str:
 def ensure_dir(path: str):
     os.makedirs(path, exist_ok=True)
 
+def choose(title, options, default):
+    print(f"\n{title}")
+    for i, opt in enumerate(options, 1):
+        print(f"  {i}. {opt}")
+
+    choice = input(f"Choose [default {default}]: ").strip()
+    if choice == "":
+        return options[default - 1]
+
+    return options[int(choice) - 1]
+
+
+def ask_int(prompt: str, default: int, min_val: int = 1) -> int:
+    while True:
+        raw = input(f"{prompt} (enter K value, default {default}): ").strip()
+
+        if raw == "":
+            return default
+
+        if raw.isdigit():
+            value = int(raw)
+            if value >= min_val:
+                return value
+
+        print(f"Invalid input. Please enter an integer >= {min_val}.")
+
+
 
 def main():
     parser = argparse.ArgumentParser(description="Hybrid non-interactive RAG eval (model+VDB+testset -> results).")
     parser.add_argument("--project_root", type=str, default=DEFAULT_PROJECT_ROOT, help="Project root folder")
-    parser.add_argument("--model", type=str, choices=["llama", "saul"], required=True, help="Which base model to load")
-    parser.add_argument("--db_type", type=str, choices=["legalbert", "minilm"], required=True, help="Which embedding/DB type")
-    parser.add_argument("--test_json", type=str, required=True, help="Path to test questions JSON (list of items)")
+    parser.add_argument("--model", type=str, choices=["llama", "saul"], default=None, help="Which base model to load")
+    parser.add_argument("--db_type", type=str, choices=["legalbert", "minilm"], default=None, help="Which embedding/DB type")
+    parser.add_argument("--test_json", type=str, default=None, help="Path to test questions JSON (list of items)")
     parser.add_argument("--results_dir", type=str, default=None, help="Results output dir (default: <project_root>/Results)")
     parser.add_argument("--adapter_path", type=str, default=None, help="Override adapter path (dir)")
     parser.add_argument("--db_path", type=str, default=None, help="Override Chroma DB path (dir)")
@@ -364,10 +391,49 @@ def main():
     parser.add_argument("--max_new_tokens", type=int, default=256, help="Generation length cap")
     parser.add_argument("--temperature", type=float, default=0.1, help="Generation temperature")
     parser.add_argument("--max_seq_len", type=int, default=2048, help="Model max sequence length")
-    parser.add_argument("--copy_adapter", action="store_true", help="Copy adapter to local /content temp before loading")
+    parser.add_argument("--copy_adapter", default= True, help="Copy adapter to local /content temp before loading")
     parser.add_argument("--adapter_cache_dir", type=str, default="/content/_tmp_adapters", help="Where to copy adapters if enabled")
 
     args = parser.parse_args()
+
+    interactive = (
+    args.model is None and
+    args.db_type is None and
+    args.test_json is None
+    )
+
+    if interactive:
+        print("=== Hybrid RAG Evaluation ===")
+
+        args.project_root = args.project_root or DEFAULT_PROJECT_ROOT
+
+        args.model = choose(
+            "Select model:",
+            ["saul", "llama"],
+            default=1
+        )
+
+        args.db_type = choose(
+            "Select vector DB:",
+            ["legalbert", "minilm"],
+            default=1
+        )
+
+        default_test = os.path.join(
+            args.project_root,
+            "Data/final_eval_questions/complete_rag_test.json"
+        )
+
+        test_path = input(f"\nEnter path to test JSON (default: {default_test}): ").strip()
+        args.test_json = test_path or default_test
+
+        args.top_k = ask_int(
+        prompt="Top-K retrieval",
+        default=4,
+        min_val=1
+        )
+
+        
 
     ensure_drive_mounted()
 
